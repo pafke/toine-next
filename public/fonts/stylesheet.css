@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Light.eot');
+    src: url('Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('Gotham-Light.woff2') format('woff2'),
+        url('Gotham-Light.woff') format('woff'),
+        url('Gotham-Light.ttf') format('truetype'),
+        url('Gotham-Light.svg#Gotham-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sentinel';
+    src: url('Sentinel-Semibold.eot');
+    src: url('Sentinel-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('Sentinel-Semibold.woff2') format('woff2'),
+        url('Sentinel-Semibold.woff') format('woff'),
+        url('Sentinel-Semibold.ttf') format('truetype'),
+        url('Sentinel-Semibold.svg#Sentinel-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

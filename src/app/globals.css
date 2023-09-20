@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Gotham";
+    src: url("/fonts/Gotham-Light.eot");
+    src: url("/fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"),
+      url("/fonts/Gotham-Light.woff2") format("woff2"),
+      url("/fonts/Gotham-Light.woff") format("woff"),
+      url("/fonts/Gotham-Light.ttf") format("truetype"),
+      url("/fonts/Gotham-Light.svg#Gotham-Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Sentinel";
+    src: url("/fonts/Sentinel-Semibold.eot");
+    src: url("/fonts/Sentinel-Semibold.eot?#iefix")
+        format("embedded-opentype"),
+      url("/fonts/Sentinel-Semibold.woff2") format("woff2"),
+      url("/fonts/Sentinel-Semibold.woff") format("woff"),
+      url("/fonts/Sentinel-Semibold.ttf") format("truetype"),
+      url("/fonts/Sentinel-Semibold.svg#Sentinel-Semibold") format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  html {
+    box-sizing: border-box;
+    font-size: 12px;
+    height: 100%;
+    font-family: "Gotham";
+  }
+  h1 {
+    font-family: "Sentinel";
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    background: rgba(10, 10, 10, 1);
+  }
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    height: 100%;
+    font-size: 16px;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+  p {
+    font-size: 16px;
+  }
+  h1,
+  p {
+    margin-bottom: 2rem;
+  }
+  a {
+    color: #a5a59d;
+    text-decoration: underline;
+  }
+  @media (min-width: 720px) {
+    html {
+      font-size: 16px;
+    }
+    h1 {
+      font-size: 36px;
+      line-height: 1.2;
+    }
+    p {
+      font-size: 22px;
+    }
+  }
