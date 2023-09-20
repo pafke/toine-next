@@ -1,7 +1,7 @@
 import { getStoryblokApi } from '@storyblok/react/rsc';
 import StoryblokStory from '@storyblok/react/story';
 
-export async function fetchData() {
+async function fetchData() {
     const currentDate = new Date();
     //const timestamp = currentDate.getTime();
     let sbParams: {
