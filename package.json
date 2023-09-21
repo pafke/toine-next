@@ -30,6 +30,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.36.1",
     "prettier": "^3.0.3",
     "storyblok-generate-ts": "^1.15.1"
   }
