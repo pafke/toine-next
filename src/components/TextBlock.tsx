@@ -6,7 +6,7 @@ const SlideShow = ({ blok }: { blok: TextBlockStoryblok }) => {
     return (
         <div {...storyblokEditable(blok)}>
             <div className='relative z-10 md:max-w-4xl md:m-20 md:mb-0'>
-                <div className='text-[#a5a59d] p-12 bg-gray-900/80'>
+                <div className='text-[#a5a59d] p-12 bg-[rgba(10,10,10,.85)]'>
                     <RichText text={blok?.text} />
                 </div>
                 <img

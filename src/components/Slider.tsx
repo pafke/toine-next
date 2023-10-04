@@ -32,7 +32,7 @@ export const Slider = ({ slides = [] }: { slides?: string[] }) => {
                 objectPosition='center center'
             />
             <Image
-                className={'opacity-0 animate-fadeIn'}
+                className={'opacity-0 animate-fadeIn delay-1000'}
                 key={imageTwo}
                 alt='background'
                 src={slides?.[imageTwo]}
