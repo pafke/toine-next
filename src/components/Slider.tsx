@@ -19,7 +19,7 @@ export const Slider = ({ slides = [] }: { slides?: string[] }) => {
             setImageOne(returnNewImageIndex(imageOne));
             setImageTwo(returnNewImageIndex(imageTwo));
             activeImage === 1 ? setActiveImage(2) : setActiveImage(1);
-        }, 5000);
+        }, 8000);
         return () => clearTimeout(timer.current);
     }, [activeImage, slides]);
     return (
